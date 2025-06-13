@@ -14,6 +14,14 @@
             <flux:navlist variant="outline">
                 <flux:navlist.group :heading="__('Platform')" class="grid">
                     <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Dashboard') }}</flux:navlist.item>
+                    {{-- Tombol untuk membuat berita --}}
+                    <flux:navlist.item icon="pencil-square" :href="route('news.create')" :current="request()->routeIs('news.create')" wire:navigate>
+                        {{ __('Create News') }}
+                    </flux:navlist.item>
+                    {{-- Tombol untuk melihat semua berita --}}
+                    <flux:navlist.item icon="newspaper" :href="route('news.index')" :current="request()->routeIs('news.index')" wire:navigate>
+                        {{ __('All Articles') }}
+                    </flux:navlist.item>
                 </flux:navlist.group>
             </flux:navlist>
 
@@ -29,7 +37,6 @@
                 </flux:navlist.item>
             </flux:navlist>
 
-            <!-- Desktop User Menu -->
             <flux:dropdown class="hidden lg:block" position="bottom" align="start">
                 <flux:profile
                     :name="auth()->user()->name"
@@ -75,7 +82,6 @@
             </flux:dropdown>
         </flux:sidebar>
 
-        <!-- Mobile User Menu -->
         <flux:header class="lg:hidden">
             <flux:sidebar.toggle class="lg:hidden" icon="bars-2" inset="left" />
 

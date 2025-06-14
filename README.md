@@ -1,5 +1,7 @@
 Nama : Tifani Harista Maya 
+
 NIM  : 23091397119
+
 Kelas : 2023D 
 
 -------------- HASIL TUGAS --------------

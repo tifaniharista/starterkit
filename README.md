@@ -25,8 +25,3 @@ Output
 
 ![Screenshot (173)](https://github.com/user-attachments/assets/f6afe5f0-632f-4467-a2dc-ede8065e7f8b)
 
-![Screenshot (178)](https://github.com/user-attachments/assets/47ce9312-a1a3-4475-bb9d-67b179e1f48c)
-
-![image](https://github.com/user-attachments/assets/fd6bb90d-2421-48d8-b6b6-d1d99e1f724f)
-
-![image](https://github.com/user-attachments/assets/0ae7cb91-1a94-42e2-88c0-6d0638c6dd90)

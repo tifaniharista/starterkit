@@ -23,5 +23,4 @@ Output
 
 ![Screenshot (180)](https://github.com/user-attachments/assets/f6afe5f0-632f-4467-a2dc-ede8065e7f8b)
 
-![Screenshot (173)](https://github.com/user-attachments/assets/f6afe5f0-632f-4467-a2dc-ede8065e7f8b)
 
